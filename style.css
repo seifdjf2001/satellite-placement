@@ -1,0 +1,68 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: radial-gradient(circle at top, #06162a, #020812);
+  color: #e6f1ff;
+  margin: 0;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #3fdcff;
+}
+
+.card {
+  background: rgba(20,30,60,0.6);
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 20px rgba(63,220,255,0.15);
+}
+
+.card h2 {
+  color: #7fe9ff;
+}
+
+input {
+  width: 100%;
+  margin: 6px 0 12px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: #081b2f;
+  color: white;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  background: linear-gradient(135deg, #00d4ff, #0077ff);
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+.highlight {
+  background: linear-gradient(135deg, #003b5c, #001e33);
+}
+
+.result {
+  text-align: center;
+  font-size: 18px;
+}
+
+canvas {
+  width: 100%;
+  height: 300px;
+  display: block;
+}
